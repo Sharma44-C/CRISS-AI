@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: CRISS-AI
+    name: Whatsbot
     env: node
     plan: free
-    repo: https://github.com/criss-vevo/CRISS-AI
+    repo: https://github.com/Sharma44-C/CRISS-AI
     branch: main
     buildCommand: npm install
     startCommand: npm start
